@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&display=swap');
 /* COMMON */
 * {
     margin: 0;
@@ -137,6 +137,13 @@ div[class*="__container"] {
     padding: 12px 20px;
     border-radius: 14px;
 }
+.button_black {
+    font-size: 18px;
+    padding: 19px 30.2px;
+    background-color: var(--almost-black-color);
+    color: #fff;
+    border-radius: 15px;
+}
 /* /BUTTON */
 /* SUBMENU */
 .submenu {
@@ -191,3 +198,50 @@ div[class*="__container"] {
     color: var(--almost-black-color);
 }
 /* /SUBMENU */
+/* MAIN*/
+.main {
+    flex: 1 0 auto;
+    background-color: var(--almost-white-color);
+}
+.main__content {
+    max-width: 520px;
+    padding: 103px 0 0 0;
+}
+.main__container {
+    display: flex;
+    justify-content: space-between;
+    padding: 45px 130px 0 165px;
+}
+.main__title {
+    font-size: 80px;
+    font-weight: var(--fw-bold);
+    letter-spacing: -1.1px;
+    margin: 0 0 47px 0;
+}
+.main__subtitle{
+    font-size: 18px;
+    max-width: 480px;
+    line-height: 28px;
+    color: var(--medium-gray-color);
+    word-spacing: .4px;
+    margin: 0 0 50px 0;
+}
+.main__image {
+    max-width: 480px;
+}
+.main__button {
+    margin-bottom: 109px;
+}
+/* /MAIN*/
+
+/* CLIENTS */
+.clients {
+    max-width: 479px;
+}
+
+.clients__list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* /CLIENTS */
