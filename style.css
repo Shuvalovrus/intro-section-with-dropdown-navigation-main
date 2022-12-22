@@ -65,11 +65,18 @@ div[class*="__container"] {
     gap: 40px;
     margin-left: auto;
 }
+.navbar__submenu {
+    display: none;
+}
 /* /HEADER */
 /* NAVBAR */
 .navbar__list {
     display: flex;
     font-size: 14px;
+}
+.navbar__item {
+    position: relative;
+    cursor: pointer;
 }
 .navbar__item:nth-child(1){
     margin-right: 57px;
@@ -80,8 +87,26 @@ div[class*="__container"] {
 .navbar__item:nth-child(3) {
     margin-right: 40px;
 }
+.navbar__item:nth-child(1)::after,
+.navbar__item:nth-child(2)::after {
+    content: url('./images/icon-arrow-down.svg');
+    position: absolute;
+    top: -1px;
+    right: -17px;
+    display: block;
+}
 .navbar__link {
     color: var(--medium-gray-color);
+}
+.navbar__submenu {
+    padding: 20px 0 0 0 ;
+    position: absolute;
+}
+.navbar__item:nth-child(1):hover .submenu_features{
+    display: flex;
+}
+.navbar__item:nth-child(2):hover .submenu_company{
+    display: flex;
 }
 /* /NAVBAR */
 /* BUTTON */
@@ -98,3 +123,49 @@ div[class*="__container"] {
     border-radius: 14px;
 }
 /* /BUTTON */
+/* SUBMENU */
+.submenu__list {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: #fff;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    border-radius: 10px;
+    padding: 25px 25px 20px 25px;
+}
+.submenu_features {
+    right: -16px;
+}
+.submenu_company {
+    left: 0;
+    white-space: nowrap;
+}
+.submenu__item {
+    display: flex;
+}
+.submenu__item:nth-child(1)::before,
+.submenu__item:nth-child(2)::before,
+.submenu__item:nth-child(3)::before,
+.submenu__item:nth-child(4)::before {
+    position: relative;
+    width: 5px;
+    height: 5px;
+    margin-right: 24px;
+}
+.submenu_features .submenu__item:nth-child(1)::before {
+    content: url(./images/icon-todo.svg);
+}
+.submenu_features .submenu__item:nth-child(2)::before {
+    content: url(./images/icon-calendar.svg);
+}
+.submenu_features .submenu__item:nth-child(3)::before {
+    content: url(./images/icon-reminders.svg);
+}
+.submenu_features .submenu__item:nth-child(4)::before {
+    content: url(./images/icon-planning.svg);
+}
+.submenu__link {
+    color: var(--medium-gray-color);
+}
+/* /SUBMENU */
