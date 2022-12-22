@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul, ol {
+    list-style-type: none;
+}
+
+:root {
+    --desktop-width: 1440px;
+    --mobile-width: 375px;
+
+    --almost-white-color: hsl(0, 0%, 98%);
+    --medium-gray-color: hsl(0, 0%, 41%);
+    --almost-black-color: hsl(0, 0%, 8%);
+
+    --paragraph-fs: 15px;
+
+    --fw-medium: 500;
+    --fw-bold: 700;
+}
+
+ul {
+}
