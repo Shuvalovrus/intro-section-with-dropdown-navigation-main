@@ -139,10 +139,15 @@ div[class*="__container"] {
 }
 .button_black {
     font-size: 18px;
-    padding: 19px 30.2px;
+    padding: 17px 28.2px;
     background-color: var(--almost-black-color);
     color: #fff;
+    border: 2px solid var(--almost-black-color);
     border-radius: 15px;
+}
+.button_black:hover {
+    color: var(--almost-black-color);
+    background-color: var(--almost-white-color);
 }
 /* /BUTTON */
 /* SUBMENU */
