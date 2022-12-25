@@ -12,89 +12,99 @@
 <body>
   <header class="header">
     <div class="header__container">
-      <div class="header__logo">
-        <img src="./images/logo.svg" alt="Logo">
-      </div>
-      <nav class="header__navbar navbar">
-        <ul class="navbar__list">
-          <li class="navbar__item">
-            <a class="navbar__link" href="#">Features</a>
-            <div class="navbar__submenu submenu submenu_features">
-              <ul class="submenu__list">
-                <li class="submenu__item">
-                  <a class="submenu__link" href="#">Todo List</a>
-                </li>
-                <li class="submenu__item">
-                  <a class="submenu__link" href="#">Calendar</a>
-                </li>
-                <li class="submenu__item">
-                  <a class="submenu__link" href="#">Reminders</a>
-                </li>
-                <li class="submenu__item">
-                  <a class="submenu__link" href="#">Planning</a>
-                </li>
-              </ul>
-            </div>
-          </li>
-          <li class="navbar__item">
-            <a class="navbar__link" href="#">Company</a>
-            <div class="navbar__submenu submenu submenu_company">
-              <ul class="submenu__list">
-                <li class="submenu__item">
-                  <a class="submenu__link" href="#">History</a>
-                </li>
-                <li class="submenu__item">
-                  <a class="submenu__link" href="#">Our Team</a>
-                </li>
-                <li class="submenu__item">
-                  <a class="submenu__link" href="#">Blog</a>
-                </li>
-              </ul>
-            </div>
-          </li>
-          <li class="navbar__item">
-            <a class="navbar__link" href="#">Careers</a>
-          </li>
-          <li class="navbar__item">
-            <a class="navbar__link" href="#">About</a>
-          </li>
-        </ul>
-      </nav>
-      <div class="header__authorization">
-        <button class="header__authorization__login button">Login</button>
-        <button class="header__authorization__register button button_bordered">Register</button>
+      <div class="header__content">
+        <div class="header__logo">
+          <img src="./images/logo.svg" alt="Logo">
+        </div>
+        <div class="header__controls-icon icon-controls">
+        </div>
+        <div class="lock-layer"></div>
+        <div class="header__controls">
+          <nav class="header__navbar navbar">
+            <ul class="navbar__list">
+              <li class="navbar__item">
+                <span class="navbar__link navbar__dropdowns_features navbar__dropdowns">Features</span>
+                <div class="navbar__submenu submenu submenu_features">
+                  <ul class="submenu__list">
+                    <li class="submenu__item">
+                      <a class="submenu__link" href="#">Todo List</a>
+                    </li>
+                    <li class="submenu__item">
+                      <a class="submenu__link" href="#">Calendar</a>
+                    </li>
+                    <li class="submenu__item">
+                      <a class="submenu__link" href="#">Reminders</a>
+                    </li>
+                    <li class="submenu__item">
+                      <a class="submenu__link" href="#">Planning</a>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+              <li class="navbar__item navbar__item_company">
+                <span class="navbar__link navbar__dropdowns_company navbar__dropdowns">Company</span>
+                <div class="navbar__submenu submenu submenu_company">
+                  <ul class="submenu__list">
+                    <li class="submenu__item">
+                      <a class="submenu__link" href="#">History</a>
+                    </li>
+                    <li class="submenu__item">
+                      <a class="submenu__link" href="#">Our Team</a>
+                    </li>
+                    <li class="submenu__item">
+                      <a class="submenu__link" href="#">Blog</a>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+              <li class="navbar__item">
+                <a class="navbar__link" href="#">Careers</a>
+              </li>
+              <li class="navbar__item">
+                <a class="navbar__link" href="#">About</a>
+              </li>
+            </ul>
+          </nav>
+          <div class="header__authorization">
+            <button class="header__authorization__login button">Login</button>
+            <button class="header__authorization__register button button_bordered">Register</button>
+          </div>
+        </div>
       </div>
     </div>
   </header>
   <main class="main">
     <div class="main__container">
       <div class="main__content">
-        <h1 class="main__title">Make remote work</h1>
-        <p class="main__subtitle"> Get your team in sync, no matter your location. Streamline processes, 
-          create team rituals, and watch productivity soar.
-        </p>
-        <button class="main__button button_black">Learn more</button>
-        <div class="main_clients clients">
-          <ul class="clients__list">
-            <li class="clients__item">
-              <img src="images/client-databiz.svg" alt="Databiz">
-            </li>
-            <li class="clients__item">
-              <img src="images/client-audiophile.svg" alt="Audiophile">
-            </li>
-            <li class="clients__item">
-              <img src="images/client-meet.svg" alt="Meet">
-            </li>
-            <li class="clients__item">
-              <img src="images/client-maker.svg" alt="Maker">
-            </li>
-          </ul>
+        <div class="main__offer">
+          <h1 class="main__title">Make remote work</h1>
+          <p class="main__subtitle"> Get your team in sync, no matter your location. Streamline processes, 
+            create team rituals, and watch productivity soar.
+          </p>
+          <button class="main__button button_black">Learn more</button>
+          <div class="main_clients clients">
+            <ul class="clients__list">
+              <li class="clients__item">
+                <img src="images/client-databiz.svg" alt="Databiz">
+              </li>
+              <li class="clients__item">
+                <img src="images/client-audiophile.svg" alt="Audiophile">
+              </li>
+              <li class="clients__item">
+                <img src="images/client-meet.svg" alt="Meet">
+              </li>
+              <li class="clients__item">
+                <img src="images/client-maker.svg" alt="Maker">
+              </li>
+            </ul>
+          </div>
         </div>
-      </div>
-      <div class="main__hero">
-        <img class="main__image" src="./images/image-hero-desktop.png" alt="Hero image">
+        <div class="main__image-box">
+          
+        </div>
       </div>
     </div>
   </main>
+  <script src="./script.js"></script>
 </body>
 </html>
