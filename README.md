@@ -40,7 +40,7 @@ Users should be able to:
 
 ### Continued development
 
--CSS animations
+- CSS animations
 
 ## Author
 
