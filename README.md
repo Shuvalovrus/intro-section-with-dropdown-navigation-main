@@ -25,12 +25,12 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![capture_20221226124803882](https://user-images.githubusercontent.com/59483799/209535050-da4753b4-f055-4a25-887f-8e2698f6230a.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/Shuvalovrus/intro-section-with-dropdown-navigation-main)
-- Live Site URL: [Add live site URL here](https://shuvalovrus.github.io/intro-section-with-dropdown-navigation-main/)
+- Solution URL: [Solution](https://github.com/Shuvalovrus/intro-section-with-dropdown-navigation-main)
+- Live Site URL: [Live site](https://shuvalovrus.github.io/intro-section-with-dropdown-navigation-main/)
 
 ## My process
 
@@ -44,5 +44,5 @@ Users should be able to:
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@Shuvalovrus](https://www.frontendmentor.io/profile/yourusername)
 
