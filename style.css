@@ -284,6 +284,7 @@ body._lock {
     background-image: url('./images/icon-menu.svg');
     background-repeat: no-repeat;
     z-index: 1;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 .icon-controls_active {
     width: 26px;
