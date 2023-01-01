@@ -423,7 +423,7 @@ body._lock {
         background-size: 100%;
         padding-bottom: 245px;
         display: block;
-        background-image: url('/images/image-hero-mobile.png');
+        background-image: url('./images/image-hero-mobile.png');
     }
     .clients__item img {
         width: 80%;
